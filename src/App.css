@@ -1,0 +1,87 @@
+.container {
+  width: 500px;
+  margin: 13rem auto;
+}
+
+.p {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #cbcbcb;
+  width: 90%;
+  padding: 0 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gainsboro;
+  height: 40px;
+  width: 100%;
+}
+
+.itemLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.itemLeft input {
+  margin-right: 0.5rem;
+}
+
+.itemLeft input,
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding-right: 15px;
+  font-size: 1.2rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.p:focus {
+  outline: 1px solid gainsboro;
+  border-radius: 7px;
+}
+
+.dNone {
+  display: none;
+}
+
+.dBlock {
+  display: block;
+}
+
+.form {
+  border: 1px solid gainsboro;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  border-radius: 10px;
+}
+
+.formInput {
+  width: 87%;
+  padding: 10px 7px;
+  border: none;
+  outline: none;
+}
+
+.inputSubmit {
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  float: right;
+  outline: none;
+  right: 0;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+}
